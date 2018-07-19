@@ -21,6 +21,11 @@ make zshrc
 make bashrc
 ```
 
+## Now you can get any ip info  ;)
+```
+ipInfo 85.203.13.62
+```
+
 ## Output
 ```
 {
