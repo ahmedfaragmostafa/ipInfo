@@ -25,7 +25,7 @@ help:
 prepare:
 
 ifeq ($(OSFLAG), MAC)
-	brew install wget jq
+	brew install wget
 else
 	sudo apt-get install wget
 endif

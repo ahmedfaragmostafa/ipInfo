@@ -11,6 +11,8 @@ ipInfo 85.203.13.62
 # clone repo 
 git clone git@github.com:ahmedfaragmostafa/ipInfo.git
 
+cd ipInfo
+
 # install missing packages 
 make prepare
 
