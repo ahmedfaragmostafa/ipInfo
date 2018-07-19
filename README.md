@@ -6,33 +6,17 @@ Get information of specific IP
 ipInfo 85.203.13.62
  ```
 
-## Add ipInfo as command to your .zshrc
+## Add ipInfo as command to your .zshrc || .bashrc
 ```
-cd $HOME
-# downlaod 
-wget https://raw.githubusercontent.com/ahmedfaragmostafa/ipInfo/master/ipInfo.sh
+# install missing packages 
+make prepare
 
-# export .zshrc
-echo 'alias ipInfo="sh $HOME/ipInfo.sh"' >> ~/.zshrc 
+# add to your .zshrc
+make zshrc
 
-# reload your profile 
-source ~/.zshrc 
+# add to your .bashrc
+make bashrc
 ```
-
-## Add ipInfo as command to your .bashrc
-
-```
-cd $HOME
-# downlaod 
-wget https://raw.githubusercontent.com/ahmedfaragmostafa/ipInfo/master/ipInfo.sh
-
-# export .bashrc
-echo 'alias ipInfo="sh $HOME/ipInfo.sh"' >> ~/.bashrc 
-
-# reload your profile 
-source ~/.bashrc 
-```
-
 
 ## Output
 ```
