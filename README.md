@@ -8,6 +8,9 @@ ipInfo 85.203.13.62
 
 ## Add ipInfo as command to your .zshrc || .bashrc
 ```
+# clone repo 
+git clone git@github.com:ahmedfaragmostafa/ipInfo.git
+
 # install missing packages 
 make prepare
 
