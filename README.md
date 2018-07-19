@@ -3,7 +3,7 @@ Get information of specific IP
 
 ## How To Use 
 ```
-sh ipInfo.sh 85.203.13.62
+ipInfo 85.203.13.62
  ```
 
 ## Add ipInfo as command to your .zshrc
