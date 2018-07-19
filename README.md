@@ -1,12 +1,26 @@
 # ipInfo
-get information of specific IP 
+Get information of specific IP 
 
 ## How To Use 
 ```
 sh ipInfo.sh 85.203.13.62
  ```
 
-## Add ipInfo as command to your .zshrc || .profile  || .bashrc
+## Add ipInfo as command to your .zshrc
+```
+cd $HOME
+# downlaod 
+wget https://raw.githubusercontent.com/ahmedfaragmostafa/ipInfo/master/ipInfo.sh
+
+# export .zshrc
+echo 'alias ipInfo="sh $HOME/ipInfo.sh"' >> ~/.zshrc 
+
+# reload your profile 
+source ~/.zshrc 
+```
+
+## Add ipInfo as command to your .bashrc
+
 ```
 cd $HOME
 # downlaod 
@@ -15,11 +29,7 @@ wget https://raw.githubusercontent.com/ahmedfaragmostafa/ipInfo/master/ipInfo.sh
 # export .bashrc
 echo 'alias ipInfo="sh $HOME/ipInfo.sh"' >> ~/.bashrc 
 
-# export .zshrc
-echo 'alias ipInfo="sh $HOME/ipInfo.sh"' >> ~/.zshrc 
-
 # reload your profile 
-source ~/.zshrc 
 source ~/.bashrc 
 ```
 
