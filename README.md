@@ -9,7 +9,7 @@ ipInfo 85.203.13.62
  ```
 
 ## Add ipInfo as command to your .zshrc || .bashrc
-```
+``` bash
 # clone repo 
 git clone git@github.com:ahmedfaragmostafa/ipInfo.git
 
@@ -31,7 +31,7 @@ ipInfo 85.203.13.62
 ```
 
 ## Output
-```
+``` JSON
 {
     "as": "AS49544 i3D.net B.V",
     "city": "Paris",
